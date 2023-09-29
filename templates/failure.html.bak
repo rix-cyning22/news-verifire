@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>NewsVerifire</title>
+		
+		<link rel="stylesheet" href="{{ url_for('static', filename='welcome-page.css') }}"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="{{ url_for('static', filename='static-js.js') }}"></script>
+		
+	</head>
+	<body>
+		<div class="title">
+			<h1><a href="/">NewsVerifire</a></h1>
+		</div>
+		<div class="container">
+			<div class="problems">
+				<h1 class="display4">The website may have denied access or is empty</h1>
+				<h2 class="display5"> Sorry!! we could not verify the news...</h2>
+				<ul>
+					<li>Some websites may not allow scraping texts. This may be the case here.</li>
+					<li>The webpage may be entirely empty. Instead, it may be a ploy to install malware in your system</li>
+				</ul>
+			</div>
+			<div class="solution">
+				<h2 class="display5">Since we could not verify the news ourselves, there are still some things you can do</h2>
+				<ul>
+					<li>If your system is properly protected, visit the website and check if it is actually empty</li>
+					<li>manually select each paragraph and run them through our website manually</li>
+					<li>a google search about the news can go a long way. just summarise what you read and search in the internet</li>
+					<li>if you do not have so much time, just take the news with a pinch of salt.</li>
+					<li>do not get riled up or excited... hit the pause button and think if the news is too good or too bad to be true</li>
+					<li>do not forward unverified news to others. you may be doing more harm than good.</li>
+				</ul>
+		</div>
+			

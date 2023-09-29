@@ -1,0 +1,80 @@
+*{
+	-webkit-box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-ms-box-sizing : border-box;
+	margin:0;
+	vertical-align:baseline;
+}
+
+body
+{
+	position:fixed;
+    height: 100%;
+	width: 100%;
+}
+
+input[type="radio"]   { accent-color: #6f6b70 }
+#text  {display: none;}
+.radio-line  {width: 100%;}
+.button  {text-align: center;}
+.form-group  {padding: 2% 10% 2% 10%;}
+form  {padding-bottom: 10%}
+.guide	
+{
+	color: #ffffff;
+	padding-left: 5%;
+}
+
+.btn	
+{
+	background-color: #62676D;
+	color: #ffffff;
+}
+
+.title
+{
+	background-color: #000000;
+	color: #ffffff;
+	padding: 1% 5% 1% 2%; 
+}
+
+.welcome-text
+{
+	padding: 2% 10% 2% 10%;
+	text-align: center;
+	color: #ffffff;
+}
+
+.jumbotron  
+{
+	background-image: url("fnd-wall.jpg");
+	background-repeat: no-repeat;
+}
+
+.inputradios
+{
+	width: 50%;
+	height: 40%;
+	margin: 2% 30% 2% 30%;
+	color: #FEFEFC;
+}
+
+#input-text	
+{
+	min-height: 40px;
+	max-height: 160px;
+	overflow: hidden;
+}
+
+.title-link
+{
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+.title-link:hover
+{
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
